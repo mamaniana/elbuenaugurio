@@ -24,12 +24,12 @@ header {
 nav ul {
     list-style: none;
     display: flex;
+    justify-content: center; /* Centrar la navegación */
+    align-items: center;
 }
 
 nav ul li {
     margin-right: 20px;
-    list-style: none;
-    font-family: 'Cinzel',serif;
 }
 
 main {
@@ -46,13 +46,25 @@ section {
     margin-bottom: 40px;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+/* Estilos para las tarjetas de cremaciones */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 0 calc(33.33% - 20px); /* 3 columnas con margen de 20px */
+    box-sizing: border-box;
 }
 
 a {
-    color: #ffffff;
+    color: #fff; /* Letras blancas para los enlaces */
     text-decoration: none;
 }
 
