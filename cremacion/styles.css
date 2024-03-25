@@ -24,7 +24,7 @@ header {
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center; /* Centrar la navegación */
+    justify-content: center; 
     align-items: center;
 }
 
@@ -60,7 +60,7 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     flex: 1 0 calc(33.33% - 20px);
     box-sizing: border-box;
-    overflow: hidden; /* Para asegurar que las imágenes no sobresalgan */
+    overflow: hidden; 
 }
 
 .card img {
